@@ -1,22 +1,54 @@
 {
-  "todos": [
-    {
-        "userId": 1,
-        "id": 1,
-        "title": "my fake title",
-        "completed": true
+    "todos": [
+        {
+            "userId": 1,
+            "id": 1,
+            "title": "Learn React",
+            "details": "Aut aut corrupti sint ipsam odit et asperiores. Sapiente porro ex. Quos saepe est. Repudiandae eum nihil dicta odit. Praesentium atque delectus quidem quas possimus eaque pariatur nihil. Minus odio nostrum nam explicabo fuga voluptatem.",
+            "completed": true
+        },
+        {
+            "userId": 1,
+            "id": 2,
+            "title": "Study Redux",
+            "details": "Non error ut. Dicta aliquid fugit dolorum doloremque saepe blanditiis sint. Excepturi vel sed porro magni voluptatem. Quibusdam sed voluptatum eveniet et ut. Unde nisi pariatur consequatur odit sit sed facere dolores minima.",
+            "completed": true
+        },
+        {
+            "userId": 1,
+            "id": 3,
+            "title": "Create SPA",
+            "details": "Non sit quas iste voluptas rerum corporis qui. Inventore harum dignissimos nulla necessitatibus asperiores at enim. Reprehenderit consequuntur vero quas.",
+            "completed": true
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "Boris"
     }
-  ],
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
