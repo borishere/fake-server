@@ -1,12 +1,12 @@
 {
-  "todos": {
+  "todos": [
     {
         "userId": 1,
         "id": 1,
         "title": "my fake title",
         "completed": true
     }
-  },
+  ],
   "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
